@@ -1,0 +1,9 @@
+#terms-container {
+    position: relative;
+    top: 100px;
+}
+
+#terms-container span {
+    display: inline-block;
+    margin-bottom: 10px;
+}

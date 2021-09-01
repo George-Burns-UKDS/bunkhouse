@@ -1,0 +1,39 @@
+<link rel="stylesheet" href="/css/partials/header.css">
+
+<nav>
+    <div class="nav-wrapper">
+        <a href="/" class="brand-logo">
+            <img src="/assets/images/logo-white-yellow.png" alt="">
+        </a>
+        <a href="#" data-target="mobile" class="sidenav-trigger"><i class="fas fa-bars"></i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a {{#if indexActive}} class="active" {{else}} {{/if}} href="/">HOME</a></li>
+            <li><a {{#if locationActive}} class="active" {{else}} {{/if}} href="/location">LOCATION</a></li>
+            <li><a {{#if termsActive}} class="active" {{else}} {{/if}} href="/terms">TERMS</a></li>
+            <li><a {{#if contactActive}} class="active" {{else}} {{/if}} href="/contact">CONTACT</a></li>
+            <li><a href="http://bunkhouse.bookworldhostels.com" class="waves-effect waves-light btn"><i
+                        class="far fa-calendar-alt left"></i>BOOK NOW</a></li>
+        </ul>
+</nav>
+
+<ul class="sidenav" id="mobile">
+    <div class="sidenav-header valign-wrapper">
+        <h5>MENU</h5>
+    </div>
+    <div class="divider"></div>
+    <li><a {{#if indexActive}} class="active" {{else}} {{/if}} href="/">HOME</a></li>
+    <div class="divider"></div>
+    <li><a {{#if locationActive}} class="active" {{else}} {{/if}} href="/location">LOCATION</a></li>
+    <div class="divider"></div>
+    <li><a {{#if termsActive}} class="active" {{else}} {{/if}} href="/terms">TERMS</a></li>
+    <div class="divider"></div>
+    <li><a {{#if contactActive}} class="active" {{else}} {{/if}} href="/contact">CONTACT</a></li>
+    <div class="divider"></div>
+    <form action="http://bunkhouse.bookworldhostels.com">
+        <div class="sidenav-footer valign-wrapper">
+            <button class="waves-effect waves-light btn"><i class="far fa-calendar-alt"></i>BOOK NOW</button>
+        </div>
+    </form>
+</ul>
+
+<script src="/js/partials/header.js"></script>

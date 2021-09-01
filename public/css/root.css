@@ -1,0 +1,92 @@
+@font-face {
+    font-family: bebas-neue;
+    src: url(../../fonts/BebasNeue-Regular.ttf)
+}
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+html {
+    background-color: #f2f2f2;
+}
+
+main {
+    position: relative;
+    padding-bottom: 100px;
+}
+
+h1, h2, h3, h4, h5, p, span {
+    color: #606060!important;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 700!important;
+}
+
+h1 {
+    font-size: 4.2rem;
+    letter-spacing: 5px;
+}
+
+h2 {
+    font-size: 3rem!important;
+}
+
+h3 {
+    font-size: 2rem!important;
+}
+
+h4 {
+    font-size: 1.75rem;
+}
+
+h5 {
+    font-size: 1.6rem;
+}
+
+h1, h5 {
+    font-weight: 700;
+    font-family: bebas-neue!important;
+}
+
+.row .col.nopad {
+    padding: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.yellow {
+    background-color: #f7db00!important;
+}
+
+.blue {
+    background-color: #6eaec9!important;
+}
+
+.anchor {
+    transform: translateY(-75px);
+}
+
+.banner .banner-text {
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+}
+
+.banner .banner-text .row {
+    margin-bottom: 2.8rem;
+}
+
+.banner .banner-text h1, .banner .banner-text p {
+    color: #fff!important;
+}
+
+.banner .banner-text h1 {
+    margin: 2.8rem 0 0rem 0;
+}
+
+.banner .banner-text p {
+    margin: 1rem 0;
+}

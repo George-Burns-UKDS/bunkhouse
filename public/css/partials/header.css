@@ -1,0 +1,141 @@
+nav {
+    z-index: 999;
+    position: fixed;
+    background-color: rgba(0,0,0,0);
+    font-weight: 700!important;
+    height: 100px;
+    box-shadow: none;
+    -webkit-transition: height .5s ease-in, background-color .2s ease-in;
+    -moz-transition: height .5s ease-in, background-color .2s ease-in;
+    -ms-transition: height .5s ease-in, background-color .2s ease-in;
+    -o-transition: height .5s ease-in, background-color .2s ease-in;
+    transition: height .5s ease-in, background-color .2s ease-in;
+}
+
+nav.active {
+    background-color: #6eaec9;
+    height: 75px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+
+nav .nav-wrapper {
+    margin: 0 200px;
+}
+
+@media only screen and (max-width: 1300px) {
+    nav .nav-wrapper {
+        margin: 0 75px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    nav .nav-wrapper {
+        margin: 0;
+    }
+}
+
+nav .nav-wrapper .brand-logo img {
+    height: 100px;
+    -webkit-transition: height .5s ease-in;
+    -moz-transition: height .5s ease-in;
+    -ms-transition: height .5s ease-in;
+    -o-transition: height .5s ease-in;
+    transition: height .5s ease-in;
+}
+
+nav .nav-wrapper ul li {
+    line-height: 100px;
+    -webkit-transition: line-height .5s ease-in;
+    -moz-transition: line-height .5s ease-in;
+    -ms-transition: line-height .5s ease-in;
+    -o-transition: line-height .5s ease-in;
+    transition: line-height .5s ease-in;
+}
+
+
+nav ul li a:hover {
+    background-color: unset!important;
+}
+
+nav .nav-wrapper ul li a.active, nav .nav-wrapper ul li a:hover, .sidenav li a.active {
+    color: #ffe659;
+}
+
+nav.active .nav-wrapper .brand-logo img {
+    height: 75px;
+}
+
+nav.active .nav-wrapper ul li {
+    line-height: 75px;
+}
+
+nav .nav-wrapper .sidenav-trigger i {
+    font-size: 48px;
+    line-height: 100px!important;
+    -webkit-transition: line-height .5s ease-in, font-size .5s ease-in;
+    -moz-transition: line-height .5s ease-in, font-size .5s ease-in;
+    -ms-transition: line-height .5s ease-in, font-size .5s ease-in;
+    -o-transition: line-height .5s ease-in, font-size .5s ease-in;
+    transition: line-height .5s ease-in, font-size .5s ease-in;
+}
+
+nav.active .nav-wrapper .sidenav-trigger i {
+    font-size: 24px;
+    line-height: 75px!important;
+}
+
+@media only screen and (max-width: 992px) {
+    nav {
+        height: 75px;
+    }
+    nav .nav-wrapper .brand-logo img {
+        height: 75px;
+    }
+    nav .nav-wrapper ul li {
+        line-height: 75px;
+    }
+    nav .nav-wrapper .sidenav-trigger i {
+        font-size: 24px;
+        line-height: 75px!important;
+    }
+}
+
+/* STYLING THE SIDE NAV */
+.sidenav {
+    z-index: 999;
+}
+
+.sidenav .sidenav-header h5, .sidenav li a {
+    font-weight: 700!important;
+}
+
+.sidenav .divider {
+    margin: 0;
+}
+
+.sidenav-header {
+    height: 75px;
+    width: 100%;
+}
+
+.sidenav-header h5 {
+    margin: 0 auto;
+}
+
+.sidenav li a i {
+    color: #000000!important;
+}
+
+.sidenav .sidenav-footer {
+    height: 75px;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.sidenav .sidenav-footer button {
+    width: 100%;
+}
+
+.sidenav .sidenav-footer button i {
+    margin-right: 10px;
+}

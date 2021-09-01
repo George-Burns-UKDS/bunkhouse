@@ -1,0 +1,14 @@
+{
+  "name": "bunkhouse",
+  "description": "Website for Bunkhouse Backpackers",
+  "version": "0.0.1",
+  "author": "George Burns",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^6.4.0",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.1.0"
+  }
+}

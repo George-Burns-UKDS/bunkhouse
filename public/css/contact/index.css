@@ -1,0 +1,17 @@
+#contact-container {
+    position: relative;
+    top: 100px;
+}
+
+.message {
+    background-color: rgba(142,181,186,.6);
+    padding: 10px 30px;
+    margin: 0 .75rem 30px .75rem;
+    color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+    button {
+        width: 100%;
+    }
+}

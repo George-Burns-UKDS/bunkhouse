@@ -1,0 +1,16 @@
+button, a.btn {
+    background-color: #f7db00!important;
+    color: #fff!important;
+    border-radius: 5px;
+    font-weight: 700!important;
+    font-size: 12px;
+}
+
+button:hover, a.btn:hover {
+    background-color: #e4ca00!important;
+}
+
+nav ul a.btn .far {
+    height: inherit;
+    line-height: inherit;
+}

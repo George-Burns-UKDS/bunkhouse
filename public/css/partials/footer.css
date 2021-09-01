@@ -1,0 +1,17 @@
+.page-footer {
+    background-color: #606060;
+}
+
+.page-footer .container .row .col h5, .page-footer .container .row .col p {
+    color: #fff!important;
+}
+
+@media only screen and (max-width: 600px) {
+    #footer-image {
+        display: none;
+    }
+}
+
+#address p {
+    margin: 0!important;
+}
